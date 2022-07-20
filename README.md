@@ -18,12 +18,14 @@ rails db:migrate # generate two tables: departures, accommodations
 rails db:seed 
 ```
 
-### Rake take
+### Rake task
 `Departure` has 4 fields(`date, price, accommodation_start, accommodation_end`)\
 `Departure` has many relations with `Accommodation` via accommodation_start, accommodation_end
+
 ```bash
 rake developer:assign_pre_and_post_accommodation
 ```
+
 The rake is `lib/tasks/developer.rake`\
 This rake task assigns accommodation start and accommodation end to departures from `db/yaml/accommodations_start.yml` and `db/yaml/accommodations_end.yml`
 ### Test
