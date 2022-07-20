@@ -24,7 +24,7 @@ rails db:seed
 ```bash
 rake developer:assign_pre_and_post_accommodation
 ```
-The rake is `lib/tasks/developer.rake`
+The rake is `lib/tasks/developer.rake`\
 This rake task assigns accommodation start and accommodation end to departures from `db/yaml/accommodations_start.yml` and `db/yaml/accommodations_end.yml`
 ### Test
 There is a test file testing rake `developer:assign_pre_and_post_accommodation_test`
