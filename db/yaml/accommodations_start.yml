@@ -1,0 +1,6 @@
+- name: 'Good Place'
+  location: 'Hamilton'
+  price: 10
+- name: 'Bad Place'
+  location: 'Hamilton'
+  price: 100

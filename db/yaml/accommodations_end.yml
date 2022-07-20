@@ -1,0 +1,6 @@
+- name: 'Not leave Place'
+  location: 'Hamilton'
+  price: 10
+- name: 'Already Left Place'
+  location: 'Hamilton'
+  price: 100
