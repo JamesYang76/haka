@@ -12,6 +12,7 @@ sqlite3
 ```bash
 bundle install # install bundle
 
+rails db:create
 rails db:migrate # generate two tables: departures, accommodations
 
 # Import 7 departures from db/yaml/departures.yml before executing assign_pre_and_post_accommodation
