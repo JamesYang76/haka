@@ -19,8 +19,6 @@ rails db:seed
 ```
 
 ### Rake task
-`Departure` has 4 fields(`date, price, accommodation_start, accommodation_end`)\
-`Departure` has many relations with `Accommodation` via accommodation_start, accommodation_end
 
 ```bash
 rake developer:assign_pre_and_post_accommodation
